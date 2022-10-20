@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Webプログラミングの演習課題</title>
+</head>
+
+<body>
+    <h1>日本大学文理学部情報科学科<br>Webプログラミングの演習課題</h1>
+    <p class="name">5421035 濵 将紘</p>
+
+    <section class="section_page">
+        <h2>ol要素・ul要素</h2>
+
+        <p>ol要素は順序付きリストを表す。</p>
+        <p>先頭に数字や文字などが表示される。</p>
+        <h3>ol要素の例</h3>
+        <p>フレンチトーストの作り方</p>
+        <pre>
+            <code>
+                &lt;ol&gt;
+                    &lt;li&gt;牛乳と卵と砂糖を混ぜる&lt;/li&gt;
+                    &lt;li&gt;パンを浸す&lt;/li&gt;
+                    &lt;li&gt;焼く&lt;/li&gt;
+                &lt;/ol&gt;
+            </code>
+        </pre>
+        <ol>
+            <li>牛乳と卵と砂糖を混ぜる</li>
+            <li>パンを浸す</li>
+            <li>焼く</li>
+        </ol>
+    </section>
+
+    <section class="section_page">
+        <h2>table要素</h2>
+
+        <p>行と列の組み合わせによって構成された表。</p>
+        <p>tr要素:tablerowの略。表の行を作成する。</p>
+        <p>th要素:tableheaderの略。見出しを作成する。</p>
+        <p>td要素:tabledataの略。表のデータを作成する。</p>
+        <h3>table要素の例</h3>
+        <p>水族館の料金表</p>
+        <pre>
+            <code>
+
+            &lt;table border="1"&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;水族館&lt;/th&gt;
+                    &lt;th&gt;料金&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;大人&lt;/td&gt;
+                    &lt;td&gt;1000円&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;子供&lt;/td&gt;
+                    &lt;td&gt;500円&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+
+            </code>
+        </pre>
+        <table border="1">
+            <tr>
+                <th>水族館</th>
+                <th>料金</th>
+            </tr>
+            <tr>
+                <td>大人</td>
+                <td>1000円</td>
+            </tr>
+            <tr>
+                <td>子供</td>
+                <td>500円</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="section_page">
+        <h2>span要素</h2>
+
+        <p>囲んだ要素のデザインを調整することができる。</p>
+        <p>spanタグ自体に意味はない。</p>
+        <h3>span要素の例</h3>
+        <p>囲んだ文字のデザイン調整</p>
+        <pre>
+            <code>
+        
+            &lt;p&gt;「&lt;span class="span_example"&gt;威風堂々&lt;/span&gt;」:威厳があって立派な様子&lt;/p&gt;
+
+            </code>
+        </pre>
+        <p>「<span class="span_example">威風堂々</span>」:威厳があって立派な様子</p>
+    </section>
+
+
+</body>
+
+</html>
